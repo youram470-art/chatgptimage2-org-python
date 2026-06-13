@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chatgptimage2-org"
+version = "0.1.0"
+description = "Python metadata helper package for https://chatgptimage2.org blog and website publishing workflows"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [{ name = "chatgptimage2.org", email = "support@chatgptimage2.org" }]
+
+[project.urls]
+Homepage = "https://chatgptimage2.org"
+Documentation = "https://chatgptimage2.org/docs"
+Repository = "https://github.com/youram470-art/chatgptimage2-org-python"
+Issues = "https://github.com/youram470-art/chatgptimage2-org-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
